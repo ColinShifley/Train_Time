@@ -41,13 +41,13 @@
                 <br>
                 <div class="row">
                     <div class="col-sm-12">
-                        <!-- This panel will initially be made up of a panel and wells for each of the articles retrieved -->
+                        <!-- This panel will initially be made up of a panel and wells for each of the results retrieved -->
                         <div class="panel panel-primary">
-                            <!-- Panel Heading for the retrieved articles box -->
+                            <!-- Panel Heading for the results box -->
                             <div class="panel-heading">
-                                <h3 class="panel-title"><strong>Current Employees</strong></h3>
+                                <h3 class="panel-title"><strong>Train Board</strong></h3>
                             </div>
-                            <!-- This main panel will hold each of the resulting articles -->
+                            <!-- This main panel will hold the returned value for category -->
                             <div class="panel-body" id="well-section">
                                 <div class="row" id="currentEmployees" style="margin: 0 auto;">
                                     <div class="col-4" class="stack" id="trainName">Train Name</div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- First panel is for handling the search parameters -->
+                <!-- First panel is for inputting train data -->
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <h3 class="panel-title"><strong>Add Train</strong></h3>
@@ -68,23 +68,23 @@
                     <div class="panel-body">
                         <!-- Here we create an HTML Form for handling the inputs-->
                         <form role="form">
-                            <!-- Here we create the text box for capturing the search term-->
+                            <!-- Here we create the text box for capturing the Train Name-->
                             <div class="form-group">
                                 <label for="search">Train Name</label>
                                 <input type="text" class="form-control" id="input-train">
                             </div>
-                            <!-- Here we capture the number of records that the user wants to retrieve  -->
+                            <!-- Here we capture where the train is going  -->
                             <div class="form-group">
                                 <label for="pwd">Destination</label>
                                 <input type="text" class="form-control" id="input-destination">
                                 </select>
                             </div>
-                            <!-- Here we capture the Start Year Parameter-->
+                            <!-- Here we capture the Start Time Parameter-->
                             <div class="form-group">
                                 <label for="start-year">First Train Time(HH:mm - Military Time)</label>
                                 <input type="text" class="form-control" id="input-firstTrain">
                             </div>
-                            <!-- Here we capture the End Year Parameter -->
+                            <!-- Here we capture Frequency -->
                             <div class="form-group">
                                 <label for="end-year">Frequency (minutes)</label>
                                 <input type="text" class="form-control" id="input-frequency">
@@ -98,11 +98,11 @@
         </div>
         <!-- This row will handle all of the retrieved articles -->
         <!-- Footer Region -->
-        <div class="row">
-            <div class="col-sm-12">
+       <!-- <div class="row">
+            <div class="col-sm-12"> -->
                 <!-- Line Break followed by closing -->
                 <hr>
-                <h5 class="text-center"><small>Team Awesome Sauce</small></h5>
+                <h5 class="text-center"><small>ccshifley</small></h5>
             </div>
         </div>
     </div>
